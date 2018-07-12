@@ -18,11 +18,12 @@ strong {
   width: 400px;
   border: 2px solid #b4bcd2;
   border-radius: 20px;
-  box-shadow: 5px 5px 2px, .container __white;
-    box-shadow-background-color: #fff;
-    box-shadow-border-radius: 20px;
-    box-shadow-margin: 10px;
-    box-shadow-margin-top: 30px; }
+  box-shadow: 5px 5px 2px; }
+  .container__white {
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 30px; }
   .container__image {
     width: 100px;
     margin: 15px 138px;
