@@ -1,0 +1,106 @@
+* {
+	box-sizing: border-box;
+	background-color: #fff;
+	font-family: arial, sans-serif;
+}
+
+a {
+	background: none;
+	text-decoration: none;
+	position: relative;
+}
+
+strong {
+	display: block;
+	color: #555555;
+}
+
+.container {
+	margin: 10px auto;
+	background-color: #D9DEE9;
+	width: 400px;
+	border: 2px solid #b4bcd2;
+	border-radius: 20px;
+	box-shadow: 5px 5px 2px, 
+	&__white {
+	background-color: #fff;
+	border-radius: 20px;
+	margin: 10px;
+	margin-top: 30px;
+	}
+	&__image {
+	width: 100px;
+	margin: 15px 138px;
+	border: 2px solid #d5d8e2;
+	border-radius: 50%;
+	}
+	&__name {
+	font-size: 25px;
+	text-align: center;
+	color: #555961;
+	margin: 0;
+	padding: 0;
+	}
+	&__twitteruser {
+	text-align: center;
+	font-size: 20px;
+	color: #555555;
+	margin: 0;
+	padding: 2px;
+	}
+	&__frase {
+	text-align: center;
+	color: #a9a9a9;
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 2px;
+	}
+	&__links { 
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+	font-size: 20px;
+	background-color: #f1f2f6;
+	border-bottom: 2px solid #d7d7d7;
+	}
+	&__redball {
+	width: 9px;
+	height: 9px;
+	background-color: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	right: 15px;
+	}
+	&__stats {
+	height: auto;
+	margin: 10px 20px;
+	display: flex;
+	justify-content: space-between;
+	}
+	&__text {
+	text-align: center;
+	color: #a9a9a9;
+	display: inline-block;
+	font-size: 22px;
+	margin: 0;
+	}
+	&__bar {
+	display: inline-block;
+	background-color: #f0f0f0;
+	width: 2px;
+	height: 40px;
+	margin: 10px 0;
+	}
+}
+
+.fa {
+	color: #aeb5cb;
+	padding: 0 20px;
+	background-color: #f1f2f6;
+}
+
+	
+
+	
+	
